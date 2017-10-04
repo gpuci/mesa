@@ -414,6 +414,7 @@ The integer capabilities:
 * ``PIPE_CAP_MAX_COMBINED_SHADER_OUTPUT_RESOURCES``: Limit on combined shader
   output resources (images + buffers + fragment outputs). If 0 the state
   tracker works it out.
+* ``PIPE_CAP_SEMAPHORE``: True if the driver supports semaphore objects
 
 .. _pipe_capf:
 
